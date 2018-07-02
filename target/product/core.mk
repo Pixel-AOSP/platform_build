@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
     KeyChain \
     Keyguard \
     LatinIME \
-    Launcher3QuickStep \
+    Launcher3 \
     ManagedProvisioning \
     MtpDocumentsProvider \
     PacProcessor \
@@ -62,7 +62,8 @@ PRODUCT_PACKAGES += \
     Traceur \
     VpnDialogs \
     vr \
-    MmsService
+    MmsService \
+    chromium
 
 # The set of packages whose code can be loaded by the system server.
 PRODUCT_SYSTEM_SERVER_APPS += \
@@ -75,3 +76,4 @@ PRODUCT_SYSTEM_SERVER_APPS += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
+
