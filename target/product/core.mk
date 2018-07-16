@@ -60,8 +60,6 @@ PRODUCT_PACKAGES += \
     VpnDialogs \
     vr \
     MmsService \
-    F-DroidPrivilegedExtension \
-    F-Droid \
     chromium
 
 # The set of packages whose code can be loaded by the system server.
@@ -75,4 +73,3 @@ PRODUCT_SYSTEM_SERVER_APPS += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
-
